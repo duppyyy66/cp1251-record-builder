@@ -14,6 +14,15 @@ mvn install:install-file \
   -Dversion=2.3.0 \
   -Dpackaging=jar
 ```
+Windows: 
+```
+mvn install:install-file ^
+  -Dfile="lib\kafka-connect-mq-source-2.3.0-jar-with-dependencies.jar" ^
+  -DgroupId=com.ibm.eventstreams ^
+  -DartifactId=kafka-connect-mq-source ^
+  -Dversion=2.3.0 ^
+  -Dpackaging=jar
+```
 
 ### 2. Собрать проект
 ```
